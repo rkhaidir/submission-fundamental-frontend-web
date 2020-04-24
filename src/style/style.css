@@ -148,7 +148,7 @@ footer {
 
 
 /* Responsive */
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 800px) {
     .info .info-content {
         flex-direction: column;
     }
@@ -188,5 +188,9 @@ footer {
         float: left;
         text-transform: uppercase;
         font-weight: bold;
+    }
+
+    footer{
+        height: auto;
     }
 }
