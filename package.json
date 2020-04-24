@@ -10,10 +10,7 @@
   },
   "author": "Rakhmat Khaidir",
   "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^4.4.1",
-    "jquery": "^3.5.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
