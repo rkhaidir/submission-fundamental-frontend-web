@@ -28,6 +28,10 @@ class Footerfix extends HTMLElement {
                 color: #e9e9e9;
                 font-weight: 200;
             }
+            .footer-content .about a {
+                color: #fff;
+                font-weight: 200;
+            }
             .footer-bottom {
                 background: #343a40;
                 color: #686868;
@@ -45,7 +49,8 @@ class Footerfix extends HTMLElement {
                 <div class="footer-section about">
                     <h1>Kawal Corona</h1>
                     <p>
-                        Kawal Corona merupakan sebuah website untuk memantau perkembangan kasus corona di Indonesia.
+                        Kawal Corona merupakan sebuah website untuk memantau perkembangan kasus corona di Indonesia.<br><br>
+                        <a href="https://github.com/rkhaidir/submission-fundamental-frontend-web">Sorce Code</a>
                     </p>
                 </div>
             </div>

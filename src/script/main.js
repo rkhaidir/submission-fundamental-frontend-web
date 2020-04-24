@@ -52,14 +52,13 @@ function main() {
         let no = 1
         data.forEach(provinsi => {
             listData.innerHTML += `
-                <tr>
-                    <td>${no}</td>
-                    <td>${provinsi.attributes.Provinsi}</td>
-                    <td>${provinsi.attributes.Kasus_Posi}</td>
-                    <td>${provinsi.attributes.Kasus_Meni}</td>
-                    <td>${provinsi.attributes.Kasus_Semb}</td>
-                </tr>
-            `
+            <tr>
+                <td><b>${no}<b></td>
+                <td>${provinsi.attributes.Provinsi}</td>
+                <td>${provinsi.attributes.Kasus_Posi}</td>
+                <td>${provinsi.attributes.Kasus_Meni}</td>
+                <td>${provinsi.attributes.Kasus_Semb}</td>
+            </tr>`
             no++
         })
     }
